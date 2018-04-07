@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/example', function () {
+//     // return view('welcome');
+//     return redirect() ->route('landing.dashboard');
+// });
+
+Route::get('/example', 'LandingController@Index') ->name('landing.dashboard');
+Route::get('/', 'AppController@Index') ->name('dashboard');
