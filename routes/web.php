@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'AppController@Index') ->name('dashboard');
+Route::get('/test', 'AppController@test_Index') ->name('test.home');

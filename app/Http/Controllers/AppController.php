@@ -17,6 +17,12 @@ class AppController extends Controller
         return view('home.app');
     }
 
+    public function test_Index()
+    {
+        //
+        return view('home.one-page');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
