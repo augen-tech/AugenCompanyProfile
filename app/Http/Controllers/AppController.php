@@ -20,7 +20,19 @@ class AppController extends Controller
     public function test_Index()
     {
         //
-        return view('home.one-page');
+        return view('pages.index');
+    }
+
+    public function career_View()
+    {
+        //
+        return view('pages.career');
+    }
+
+    public function blog_View()
+    {
+        //
+        return view('pages.blog');
     }
 
     /**
