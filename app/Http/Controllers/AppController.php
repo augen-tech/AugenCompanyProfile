@@ -17,6 +17,24 @@ class AppController extends Controller
         return view('home.app');
     }
 
+    public function test_Index()
+    {
+        //
+        return view('pages.index');
+    }
+
+    public function career_View()
+    {
+        //
+        return view('pages.career');
+    }
+
+    public function blog_View()
+    {
+        //
+        return view('pages.blog');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'AppController@Index') ->name('dashboard');
+Route::get('/test', 'AppController@test_Index') ->name('test.home');
+Route::get('/test/career', 'AppController@career_View') ->name('test.career');
+Route::get('/test/blog', 'AppController@blog_View') ->name('test.blog');
