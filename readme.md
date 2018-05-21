@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+Below are requirements your local machine needs:
 1. Download [Composer](http://getcomposer.org/doc/00-intro.md).
 2. PHP 7 or newest.
 3. HTTP Server.
@@ -17,15 +18,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-1. Copy .env.example and rename it to .env
+Below are step by step series of examples you need to do:
+1. Copy `.env.example` and rename it to `.env`.
 
-2. Run `composer install`. Allow folder permissions if composer asks.
+2. Install all the dependencies as specified in `composer.lock`. Allow folder permissions if composer asks.
 
 ```bash
 $ composer install
 ```
 
-3. Generate new key to .env file.
+3. Generate new key to `.env` file.
 
 ```bash
 $ php artisan key:generate
