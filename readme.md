@@ -19,15 +19,15 @@ Below are requirements your local machine needs:
 ### Installation
 
 Below are step by step series of examples you need to do:
-1. Copy .env.example and rename it to .env
+1. Copy `.env.example` and rename it to `.env`.
 
-2. Install all the dependencies as specified in composer.lock. Allow folder permissions if composer asks.
+2. Install all the dependencies as specified in `composer.lock`. Allow folder permissions if composer asks.
 
 ```bash
 $ composer install
 ```
 
-3. Generate new key to .env file.
+3. Generate new key to `.env` file.
 
 ```bash
 $ php artisan key:generate
