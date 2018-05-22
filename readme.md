@@ -1,6 +1,6 @@
 # Ayaide Company Profile
 
-![ayaide](https://files.slack.com/files-pri/TA69B5YKC-FATQJJ94J/ayaidebanner.jpg)
+![ayaide](https://raw.githubusercontent.com/tekindo-com/AyaideCompanyProfile/master/AyaideBanner.jpg)
 
 > A Company Profile for [Ayaide](https://ayaide.com).
 
