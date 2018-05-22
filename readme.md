@@ -1,6 +1,6 @@
 # Ayaide Company Profile
 
-![ayaide](https://instagram.fbdo2-1.fna.fbcdn.net/vp/9d7d179c045442bde4700c6887c88e8c/5B7BBB48/t51.2885-19/s150x150/30085542_169867450341861_5565118790489866240_n.jpg?_nc_eui2=AeGcZucTiBDC-j4JJzM_uz_hK1OdBEyxJ20Z8QV2ot0Vr-NTSAaKNLcKLn0VFuLUR-nk91ZXXktMmMENXs8F_pUW)
+![ayaide](https://files.slack.com/files-pri/TA69B5YKC-FATQJJ94J/ayaidebanner.jpg)
 
 > A Company Profile for [Ayaide](https://ayaide.com).
 
