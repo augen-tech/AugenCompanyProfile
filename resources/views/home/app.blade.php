@@ -36,7 +36,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Tekindo</title>
+	<title>Ayaide</title>
 
 </head>
 
@@ -157,11 +157,11 @@
 					<div class="container clearfix">
 		
 						<div class="heading-block center noborder" data-heading="T">
-							<h3>Welcome to Tekindo</h3>
+							<h3>Welcome to Ayaide</h3>
 						</div>
 
 						<div class="center col-lg-8 offset-lg-2 bottommargin">
-							<h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">TEKINDO (CV. TEKNOLOGI KREATIF INDONESIA) is a creative content development startup based technology. Dedicated to create world-class interactive experiences.</h3>
+							<h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Ayaide is a creative content development startup based technology. Dedicated to create world-class interactive experiences.</h3>
 						</div>
 
 						<div class="clear"></div>
@@ -318,7 +318,7 @@
 				============================================= -->
 				<section id="section-portfolio" class="page-section">
 					<div id="portfolio-container" class="section nobg nobottommargin clearfix">
-						<div class="container clearfix">
+						<div class="container clearfix" >
 							<div class="heading-block center noborder" data-heading="T">
 								<h3 class="nott ls0">Portfolio</h3>
 							</div>
@@ -720,6 +720,38 @@
 
 		</section><!-- #content end -->
 
+		<div class="section parallax dark bottommargin-lg skrollable skrollable-between" style="background-image: url(&quot;images/services/home-testi-bg.jpg&quot;); background-size: cover; padding: 100px 0px; background-position: 0px -30.7443px;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -500px;">
+
+			<div class="container clearfix">
+
+				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn">
+					<i class="i-plain i-large divcenter nobottommargin icon-time"></i>
+					<div class="counter counter-lined"><span data-from="10" data-to="80" data-refresh-interval="50" data-speed="4000" data-comma="true">80</span>+</div>
+					<h5>Hours per Week</h5>
+				</div>
+
+				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn" data-delay="200">
+					<i class="i-plain i-large divcenter nobottommargin icon-code"></i>
+					<div class="counter counter-lined"><span data-from="100" data-to="25841" data-refresh-interval="50" data-speed="2500" data-comma="true">25,841</span></div>
+					<h5>Lines of Code</h5>
+				</div>
+
+				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn" data-delay="400">
+					<i class="i-plain i-large divcenter nobottommargin icon-briefcase"></i>
+					<div class="counter counter-lined"><span data-from="100" data-to="923" data-refresh-interval="50" data-speed="3500" data-comma="true">923</span></div>
+					<h5>Projects Completed</h5>
+				</div>
+
+				<div class="col_one_fourth nobottommargin center col_last bounceIn animated" data-animate="bounceIn" data-delay="600">
+					<i class="i-plain i-large divcenter nobottommargin icon-dribbble2"></i>
+					<div class="counter counter-lined"><span data-from="25" data-to="214" data-refresh-interval="30" data-speed="2700" data-comma="true">214</span></div>
+					<h5>Shots on Dribbble</h5>
+				</div>
+
+			</div>
+
+		</div>
+
 		<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
@@ -730,11 +762,11 @@
 
 				<div class="container clearfix">
 
-					<div class="col_half">
+					<div class="col_half" style="color: rgb(31, 31, 31)">
 						<img src="{{asset('material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
 						
 
-						Copyrights &copy; 2018 All Rights Reserved by Tekindo
+						Copyrights &copy; 2018 All Rights Reserved by Ayaide
 					</div>
 
 					<div class="col_half col_last tright">

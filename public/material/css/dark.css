@@ -1028,7 +1028,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 }
 
 .dark #copyrights {
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(244, 229, 66, 1);
 	color: rgba(255,255,255,0.25);
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
@@ -1036,12 +1036,12 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #copyrights i.footer-icon { color: rgba(255,255,255,0.3); }
 
 .dark .copyright-links a {
-	color: rgba(255,255,255,0.25);
+	color: rgb(31, 31, 31);
 	border-bottom-color: rgba(255,255,255,0.25);
 }
 
 .dark .copyright-links a:hover {
-	color: rgba(255,255,255,0.35);
+	color: rgba(255,255,255,1);
 	border-bottom-color: rgba(255,255,255,0.35);
 }
 

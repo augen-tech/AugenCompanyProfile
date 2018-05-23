@@ -345,7 +345,7 @@
 	transition: all .4s ease;
 }
 
-.feature-box h3 span.subtitle { font-size: 14px; }
+.feature-box h3 span.subtitle { font-size: 14px; color:yellow;}
 
 .feature-box.fbox-plain .fbox-icon img { height: 50px; }
 
