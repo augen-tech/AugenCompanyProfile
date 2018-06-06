@@ -1,0 +1,24 @@
+.content-slide .action-btn {
+    background: #F3CD3D;
+    border: 1px solid #F3CD3D;
+}
+
+.content-slide .action-btn:hover{
+    background:#000000;
+}
+
+#subscribe #notifyMe .form-group button.submit {
+    background: #F3CD3D;
+}
+
+.dialog__content .header-picture {
+    background: url(../img/AyaideBanner.jpg) center;
+}
+
+.info-bar #countdown {
+    color: #F3CD3D;
+}
+
+.info-bar {
+    background: rgba(255,255,255,0.6);
+}
