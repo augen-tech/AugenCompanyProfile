@@ -80,7 +80,7 @@
 								<h1 class="text-intro opacity-0">Coming Soon</h1>
 							
 								<p class="text-intro opacity-0">So Excited !!!<strong> Ayaide Company Profile Launch</strong>.
-                                <br> Chill your excitement we're gonna rock the world!.
+                                <br> Chill your excitement cause we're gonna rock the world!.
 								</p>
 
 								<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Click Me !</a>
@@ -114,7 +114,7 @@
 							
 					<h4>Newsletter</h4>
 							
-					<p>Just write your email to get latest news of <strong>Ayaide</strong>. <<br>Enjoy your day!!!</p>
+					<p>Just write your email to get latest news of <strong>Ayaide</strong>. <br>Enjoy your day!!!</p>
 
 					<!-- Newsletter Form -->
 					<div id="subscribe">
