@@ -5,8 +5,8 @@
 
 	<head>
 		<meta charset="utf-8">
-        <title>Comming soon - Ablepro v7.0 Bootstrap4 Admin Template by Phoenixcoded</title>
-        <meta name="description" content="Comming soon page - Able 7.0">
+        <title>Ayaide</title>
+        <meta name="description" content="Comming soon - Ayaide">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Codedthemes">
         <!-- Favicon -->
