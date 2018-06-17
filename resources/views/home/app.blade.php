@@ -329,10 +329,11 @@
 							<ul class="portfolio-filter style-2 center clearfix" data-container="#portfolio">
 
 								<li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
-								<li><a href="#" data-filter=".pf-own">Own Project</a></li>
-								<li><a href="#" data-filter=".pf-client">Client Project</a></li>
-								<li><a href="#" data-filter=".pf-graphic">Graphic Design</a></li>
-								<li><a href="#" data-filter=".pf-photo">Photography</a></li>
+								{{-- <li><a href="#" data-filter=".pf-own">Own Project</a></li> --}}
+                                <li><a href="#" data-filter=".pf-client">Client Project</a></li>
+                                <li><a href="#" data-filter=".pf-game">Game Project</a></li>
+                                <li><a href="#" data-filter=".pf-web">Web Project</a></li>
+								<li><a href="#" data-filter=".pf-graphic">Graphic Design</a></li>								
 								<li><a href="#" data-filter=".pf-video">Video</a></li>
 
 							</ul><!-- #portfolio-filter end -->
@@ -342,112 +343,160 @@
 						============================================= -->
 						<div id="portfolio" class="portfolio grid-container portfolio-nomargin clearfix">
 
-							<article class="portfolio-item pf-own pf-graphic">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/5.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a >Light Path</a></h3>
-											<span><a >Own Project</a>, <a href="#">Graphic Design</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/7.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/7.jpg')}}" data-lightbox="image">Usir Penjajah</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article> 
 
-							<article class="portfolio-item pf-own">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/2.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a >Snatch Steal</a></h3>
-											<span><a >Own Project</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/5.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/5.jpg')}}" data-lightbox="image">Light Path</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article> 
+                            
+                            <article class="portfolio-item pf-client pf-web">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/1.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Klinik Ganesha Husada</a></h3>
+                                            <span><a>Client Project</a>, <a>Web Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article> 
 
-							<article class="portfolio-item pf-client">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/16.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a >Bermain dan Belajar Buah-Sayur</a></h3>
-											<span><a >Client</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/11.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/11.jpg')}}" data-lightbox="image">Cultural Last Frontier</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
 
-							<article class="portfolio-item pf-own pf-graphic">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/24.jpg')}}" alt="Open Imagination">
-									</a>
-									{{-- <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="{{ asset('material/tmg/portfolio/4.jpg')}}" alt="Open Imagination"></a></div>
-												<div class="slide"><a href="#"><img src="{{ asset('material/tmg/portfolio/5.jpg')}}" alt="Open Imagination"></a></div>
-											</div>
-										</div>
-									</div> --}}
-									<div class="portfolio-overlay">
-									{{-- <div class="portfolio-overlay" data-lightbox="gallery"> --}}
-										<div class="portfolio-desc">
-											<h3><a >Street Watcher Poster</a></h3>
-											<span><a >Own Project</a>, <a href="#">Graphic Designer</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/16.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/16.jpg')}}" data-lightbox="image">Bermain Buah & Sayur</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>		                                                       	
+                            
+                            <article class="portfolio-item pf-client pf-video pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/39.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="https://www.youtube.com/embed/ppw_eT_sBhA" data-lightbox="iframe">To-do Diet Video</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a>, <a>Video</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>	
 
-							<article class="portfolio-item pf-own pf-video">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/39.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<div class="portfolio-desc">
-											<h3><a >To-Do Diet</a></h3>
-											<span><a >Own Project</a>, <a href="#">Video</a></span>
-										</div>
-									</div>
-								</div>
-							</article>						
+                            <article class="portfolio-item pf-client pf-web">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/1.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Pilar Juanda</a></h3>
+                                            <span><a>Client Project</a>, <a>Web Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
+                            
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/26.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/26.jpg')}}" data-lightbox="image">To-do Diet App</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
 
-							<article class="portfolio-item pf-own">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/26.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a >To-Do Diet App</a></h3>
-											<span><a >Own Project</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/12.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/12.jpg')}}" data-lightbox="image">Kiddo Puzzle Game</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
 
-							<article class="portfolio-item pf-client">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/12.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a >Kiddo Puzzle Game</a></h3>
-											<span><a >Client Project</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/10.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/10.jpg')}}" data-lightbox="image">Crash The Crunch Chitato</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
+
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('material/tmg/portfolio/14.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('material/tmg/portfolio/full/14.jpg')}}" data-lightbox="image">KEPO</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </article>
+						
 
 						</div><!-- #portfolio end -->
 					</div>
