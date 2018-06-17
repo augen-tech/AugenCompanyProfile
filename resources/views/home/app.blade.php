@@ -59,8 +59,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('material/tmg/logotekindo.png')}}"><img src="{{ asset('material/tmg/logotekindo.png')}}" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('material/tmg/logotekindo@2x.png')}}"><img src="{{ asset('material/tmg/logotekindo@2x.png')}}" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('material/tmg/logoayaideblack.png')}}"><img src="{{ asset('material/tmg/logoayaideblack.png')}}" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('material/tmg/logoayaideblack2.png')}}"><img src="{{ asset('material/tmg/logoayaideblack2.png')}}" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -167,7 +167,7 @@
 						<div class="clear"></div>
 		
 						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
+							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
 									<img src="{{ asset('material/demos/business/images/featured/1.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
@@ -179,7 +179,7 @@
 						</div>
 		
 						<div class="col_one_third nobottommargin">
-							<div class="feature-box media-box">
+							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
 									<img src="{{ asset('material/demos/business/images/featured/2.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
@@ -191,7 +191,7 @@
 						</div>
 		
 						<div class="col_one_third nobottommargin col_last">
-							<div class="feature-box media-box">
+							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
 									<img src="{{ asset('material/demos/business/images/featured/3.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
@@ -207,14 +207,15 @@
 					</div>
 					
 				</section>
-				
-				<!-- Services
+
+								
+				<!-- How We Work
 				============================================= -->
 				<section id="section-service" class="page-section">
 					<div class="section nobg clearfix">
 						<div class="container clearfix">
 							<div class="heading-block bottommargin-lg center noborder" data-heading="T">
-								<h3 class="nott ls0">Services</h3>
+								<h3 class="nott ls0">How We Work</h3>
 							</div>
 						</div>
 
@@ -227,7 +228,7 @@
 										<img src="{{ asset('material/demos/business/images/carousel/3.jpg')}}" alt="">
 									</div>
 									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-										<h3>Web Development</h3>
+										<h3>Agile</h3>
 										<p>We create good websites for our customers. With a new desain, we deliver information with a new way. Good choice for your site!</p>
 										{{-- <a href="#" class="button-link">Read More</a> --}}
 									</div>
@@ -239,7 +240,7 @@
 										<img src="{{ asset('material/demos/business/images/carousel/2.jpg')}}" alt="">
 									</div>
 									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-										<h3>Mobile Development</h3>
+										<h3>Design Thingking</h3>
 										<p>Track your world at anytime you want! Feel like the rest of the world is in your hand. Mobile apps is the solution for all of you need. </p>
 										{{-- <a href="#" class="button-link">Read More</a> --}}
 									</div>
@@ -262,8 +263,8 @@
 				</section>
 
 				<!-- Carreer
-				============================================= -->
-				{{-- <div class="section nopadding notopmargin nobg clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+				{{-- ============================================= -->
+				<div class="section nopadding notopmargin nobg clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
 					<div class="row common-height clearfix">
 						<div class="col-lg-6 center col-padding" style="background: url('{{ asset('material/demos/business/images/sections/1.jpg')}}') center center no-repeat; background-size: cover;">
 							<div>&nbsp;</div>
@@ -348,8 +349,8 @@
 									</a>
 									<div class="portfolio-overlay">
 										<div class="portfolio-desc">
-											<h3><a href="#">Light Path</a></h3>
-											<span><a href="#">Own Project</a>, <a href="#">Graphic Design</a></span>
+											<h3><a >Light Path</a></h3>
+											<span><a >Own Project</a>, <a href="#">Graphic Design</a></span>
 										</div>
 									</div>
 								</div>
@@ -362,8 +363,8 @@
 									</a>
 									<div class="portfolio-overlay">
 										<div class="portfolio-desc">
-											<h3><a href="#">Snatch Steal</a></h3>
-											<span><a href="#">Own Project</a></span>
+											<h3><a >Snatch Steal</a></h3>
+											<span><a >Own Project</a></span>
 										</div>
 									</div>
 								</div>
@@ -376,8 +377,8 @@
 									</a>
 									<div class="portfolio-overlay">
 										<div class="portfolio-desc">
-											<h3><a href="#">Bermain dan Belajar Buah-Sayur</a></h3>
-											<span><a href="#">Client</a></span>
+											<h3><a >Bermain dan Belajar Buah-Sayur</a></h3>
+											<span><a >Client</a></span>
 										</div>
 									</div>
 								</div>
@@ -399,8 +400,8 @@
 									<div class="portfolio-overlay">
 									{{-- <div class="portfolio-overlay" data-lightbox="gallery"> --}}
 										<div class="portfolio-desc">
-											<h3><a href="#">Street Watcher Poster</a></h3>
-											<span><a href="#">Own Project</a>, <a href="#">Graphic Designer</a></span>
+											<h3><a >Street Watcher Poster</a></h3>
+											<span><a >Own Project</a>, <a href="#">Graphic Designer</a></span>
 										</div>
 									</div>
 								</div>
@@ -413,26 +414,12 @@
 									</a>
 									<div class="portfolio-overlay" data-lightbox="gallery">
 										<div class="portfolio-desc">
-											<h3><a href="#">To-Do Diet</a></h3>
-											<span><a href="#">Own Project</a>, <a href="#">Video</a></span>
+											<h3><a >To-Do Diet</a></h3>
+											<span><a >Own Project</a>, <a href="#">Video</a></span>
 										</div>
 									</div>
 								</div>
-							</article>
-
-							<article class="portfolio-item pf-photo">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{ asset('material/tmg/portfolio/29.jpg')}}" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<div class="portfolio-desc">
-											<h3><a href="#">Abandoned Ship</a></h3>
-											<span><a href="#">Photography</a></span>
-										</div>
-									</div>
-								</div>
-							</article>
+							</article>						
 
 							<article class="portfolio-item pf-own">
 								<div class="portfolio-image">
@@ -441,8 +428,8 @@
 									</a>
 									<div class="portfolio-overlay">
 										<div class="portfolio-desc">
-											<h3><a href="#">To-Do Diet App</a></h3>
-											<span><a href="#">Own Project</a></span>
+											<h3><a >To-Do Diet App</a></h3>
+											<span><a >Own Project</a></span>
 										</div>
 									</div>
 								</div>
@@ -455,8 +442,8 @@
 									</a>
 									<div class="portfolio-overlay">
 										<div class="portfolio-desc">
-											<h3><a href="#">Kiddo Puzzle Game</a></h3>
-											<span><a href="#">Client Project</a></span>
+											<h3><a >Kiddo Puzzle Game</a></h3>
+											<span><a >Client Project</a></span>
 										</div>
 									</div>
 								</div>
@@ -465,18 +452,24 @@
 						</div><!-- #portfolio end -->
 					</div>
 				</section>
-
+				
 				<!-- Video Sections
 				============================================= -->
-				{{-- <div class="section nobg notopmargin clearfix">
+				<div class="section nobg notopmargin clearfix">
 					<div class="container clearfix">
+
+						
+						<div class="heading-block bottommargin-lg center noborder" data-heading="T">
+							<h3 class="nott ls0">Services</h3>
+						</div>
+						
 
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
-								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/24help.svg')}}" alt=""></a>
-								</div>
-								<h3 class="nott t600 ls0">Responsive Layout</h3>
+											<div class="fbox-icon">
+												<a href="#"><img src="{{ asset('material/images/services/s1.png')}}" alt=""></a>
+											</div>
+								<h3 class="nott t600 ls0">Software Development</h3>
 								<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
 							</div>
 						</div>
@@ -484,9 +477,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/barcode.svg')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('material/images/services/s2.png')}}" alt=""></a>
 								</div>
-								<h3 class="nott t600 ls0">Retina Ready Graphics</h3>
+								<h3 class="nott t600 ls0">Game Development</h3>
 								<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
 							</div>
 						</div>
@@ -494,9 +487,9 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/buy.svg')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('material/images/services/s3.png')}}" alt=""></a>
 								</div>
-								<h3 class="nott t600 ls0">Powerful Performance</h3>
+								<h3 class="nott t600 ls0">AR/VR Development</h3>
 								<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
 							</div>
 						</div>
@@ -506,9 +499,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/card.svg')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('material/images/services/s4.png')}}" alt=""></a>
 								</div>
-								<h3 class="nott t600 ls0">HTML5 Video</h3>
+								<h3 class="nott t600 ls0">IT Camp</h3>
 								<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
 							</div>
 						</div>
@@ -516,9 +509,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/doc.svg')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('material/images/services/s5.png')}}" alt=""></a>
 								</div>
-								<h3 class="nott t600 ls0">Parallax Support</h3>
+								<h3 class="nott t600 ls0">Multimedia & Graphic Design</h3>
 								<p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
 							</div>
 						</div>
@@ -526,47 +519,18 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/dropbox.svg')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('material/images/services/s6.png')}}" alt=""></a>
 								</div>
-								<h3 class="nott t600 ls0">Endless Possibilities</h3>
+								<h3 class="nott t600 ls0">Technology Consultancy</h3>
 								<p>Complete control on each &amp; every element that provides endless customization possibilities.</p>
 							</div>
 						</div>
 
-						<div class="clear"></div>
-
-						<div class="col_one_third bottommargin">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/piggy-bank.svg')}}" alt=""></a>
-								</div>
-								<h3 class="nott t600 ls0">Light &amp; Dark Color Schemes</h3>
-								<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
-							</div>
-						</div>
-
-						<div class="col_one_third bottommargin">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/home.svg')}}" alt=""></a>
-								</div>
-								<h3 class="nott t600 ls0">Boxed &amp; Wide Layouts</h3>
-								<p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
-							</div>
-						</div>
-
-						<div class="col_one_third bottommargin col_last">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/demos/business/images/icons/offers.svg')}}" alt=""></a>
-								</div>
-								<h3 class="nott t600 ls0">Extensive Documentation</h3>
-								<p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
-							</div>
-						</div>
+						<div class="clear"></div>						
 
 						<div class="clear line"></div>
 
+						
 						<div class="row topmargin-lg clearfix">
 							<div class="col-lg-6 nopadding">
 								<!-- Youtube Video Link
@@ -580,15 +544,198 @@
 							============================================= -->
 							<div class="col-lg-6" style="padding-left: 60px;">
 								<div class="heading-block topmargin-sm bottommargin-sm noborder">
-									<h3 class="nott" style="font-size: 46px; font-weight: 700; letter-spacing: -2px; line-height: 58px">A small Video from Our Customers.</h3>
+									<h3 class="nott" style="font-size: 46px; font-weight: 700; letter-spacing: -2px; line-height: 58px">A small Video from us.</h3>
 								</div>
 								<p class="t400">Interactively facilitate.<br>Tactical systems with compelling materials. Objectively re-engineer diverse relationships long-term impact methodologies.</p>
-								<h5 class="nobottommargin t600">&middot; SemiColonWeb - Author, Themeforest Market. <a href="#"><img src="demos/business/images/tf-logo.png" height="18" alt="" style="margin-left: 4px"></a></h5>
-								<a href="#" class="button-link bottommargin">Read More</a>
+								<h5 class="nobottommargin t600">&middot; Ayaide Video. <a href="#"><img src="demos/business/images/tf-logo.png" height="18" alt="" style="margin-left: 4px"></a></h5>
+								{{-- <a href="#" class="button-link bottommargin">Read More</a> --}}
 							</div>
 						</div>
 					</div>
-				</div> --}}
+				</div> 
+
+				<!-- Team Content
+				============================================= -->
+				<section id="content">
+					<div class="content-wrap">
+						<div class="container clearfix">
+							<div class="fancy-title title-border title-center">
+								<h3>Our Team</h3>
+							</div>
+																	
+							<div id="oc-team" class="owl-carousel team-carousel bottommargin carousel-widget" data-margin="30" data-pagi="false" data-items-sm="2" data-items-md="2" data-items-xl="5">
+			
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Januar Elsan</h4><span>CEO</span></div>
+											<a target="_blank" href="https://www.facebook.com/januartriandy.nurelsan" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="https://twitter.com/JanuarTriandy" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="https://www.instagram.com/januarelsan/" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Ashari Fachrizal</h4><span>CTO</span></div>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Zidni Fahmi</h4><span>Web Developer</span></div>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Akbar Maulana</h4><span>Web Developer</span></div>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Rafi Al Farizi</h4><span>Web Developer</span></div>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="oc-item">
+									<div class="team">
+										<div class="team-image">
+											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										</div>
+										<div class="team-desc">
+											<div class="team-title"><h4>Ervira Wulandari</h4><span>Media Content Creator</span></div>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											<a target="_blank" href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+												<i class="icon-instagram"></i>
+												<i class="icon-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+									
+			
+							</div>
+				
+							<div class="clear"></div>							
+						</div>
+
+					</div>
+				</section><!-- #content end -->
+
+				<!-- Client Sections
+				============================================= -->
+
+				<div class="container clearfix">
+
+						<div class="clear"></div>
+	
+						<div class="heading-block center">
+							<h4>Our Clients</h4>
+						</div>
+	
+						<ul class="clients-grid grid-6 nobottommargin clearfix">
+							<li><a href="#"><img src="{{ asset('material/images/clients/KPK.png')}}" alt="Clients"></a></li>
+							<li><a href="#"><img src="{{ asset('material/images/clients/Telkom-University.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('material/images/clients/UPI.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('material/images/clients/Radio-Angkasa.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('material/images/clients/BUMIMANIRA.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('material/images/clients/gubugdogja.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('material/images/clients/pilarjuanda.png')}}" alt="Clients"></a></li>
+							
+						</ul>
+	
+					</div>
+	
 
 				<!-- Testimonial Sections
 				============================================= -->
@@ -617,7 +764,7 @@
 												<div class="slide">
 													<div class="testimonial noborder noshadow">
 														<div class="testi-content">
-															<p class="bottommargin-sm font-primary">Proses pengerjaan aplikasi nya cepat dan tepat waktu. Sesuai dengan keinginan klien dan ketika aplikasi dijalankan tidak ada kendala dan lancar. Tekindo penyelamat DEADLINE KU!</p>
+															<p class="bottommargin-sm font-primary">Proses pengerjaan aplikasi nya cepat dan tepat waktu. Sesuai dengan keinginan klien dan ketika aplikasi dijalankan tidak ada kendala dan lancar. Ayaide penyelamat DEADLINE KU!</p>
 															<div class="testi-meta">
 																Lola Astri Nadita
 																<span>Education Application Project</span>
@@ -635,7 +782,7 @@
 												<div class="slide">
 													<div class="testimonial noborder noshadow">
 														<div class="testi-content">
-															<p class="bottommargin-sm font-primary">Pengerjaan project dengan Tekindo bisa dibilang sangat cepat. Pada awalnya saya mengira pengerjaan akan memakan waktu 3 minggu, karena sebelumnya saya pernah meminta project serupa ke orang lain memakan waktu hampir 1 bulan. Pengerjaan project dengan Tekindo hanya memakan waktu 1 minggu. Sangat cepat!.</p>
+															<p class="bottommargin-sm font-primary">Pengerjaan project dengan Ayaide bisa dibilang sangat cepat. Pada awalnya saya mengira pengerjaan akan memakan waktu 3 minggu, karena sebelumnya saya pernah meminta project serupa ke orang lain memakan waktu hampir 1 bulan. Pengerjaan project dengan Ayaide hanya memakan waktu 1 minggu. Sangat cepat!.</p>
 															<div class="testi-meta">
 																Hafidz Noor Fauzi
 																<span>Game Project</span>
@@ -650,6 +797,7 @@
 														</div>
 													</div>
 												</div>
+
 												{{-- <div class="slide">
 													<div class="testimonial noborder noshadow">
 														<div class="testi-content">
@@ -668,10 +816,11 @@
 														</div>
 													</div>
 												</div> --}}
+
 												<div class="slide">
 													<div class="testimonial noborder noshadow">
 														<div class="testi-content">
-															<p class="bottommargin-sm font-primary">Tekindo merupakan rekan kerja yang ambisius, bekerja dengan efisien dan cerdas, permintaan bisa langsung dipenuhi dengan kemampuan teknis dan komunikasinya. Waktu pengerjaan? Bisa ditunggu ditempat.</p>
+															<p class="bottommargin-sm font-primary">Ayaide merupakan rekan kerja yang ambisius, bekerja dengan efisien dan cerdas, permintaan bisa langsung dipenuhi dengan kemampuan teknis dan komunikasinya. Waktu pengerjaan? Bisa ditunggu ditempat.</p>
 															<div class="testi-meta">
 																Muhammad Hilmy A.N.
 																<span>KnocKnock Team Member - UI/UX Designer</span>
@@ -685,25 +834,7 @@
 															</div>
 														</div>
 													</div>
-												</div>
-												{{-- <div class="slide">
-													<div class="testimonial noborder noshadow">
-														<div class="testi-content">
-															<p class="bottommargin-sm font-primary">I've been using Canvas for months now and it has exceeded my expectations. Their support has been great too.</p>
-															<div class="testi-meta">
-																kwelch2
-																<span>ThemeForest user</span>
-																<div class="testimonials-rating">
-																	<i class="icon-star3"></i>
-																	<i class="icon-star3"></i>
-																	<i class="icon-star3"></i>
-																	<i class="icon-star3"></i>
-																	<i class="icon-star3"></i>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div> --}}
+												</div>												
 											</div>
 										</div>
 									</div>
@@ -718,39 +849,79 @@
 
 			</div>
 
-		</section><!-- #content end -->
+		</section>
+		<!-- #content end -->
 
-		<div class="section parallax dark bottommargin-lg skrollable skrollable-between" style="background-image: url(&quot;images/services/home-testi-bg.jpg&quot;); background-size: cover; padding: 100px 0px; background-position: 0px -30.7443px;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -500px;">
+		<!-- 5 : #section-contact -->																					
+		<section id="section-contact" class="page-section section dark nomargin" style="background: url(' {{ asset('material/demos/business/images/sections/3.jpg')}}') no-repeat center center; background-size: cover;">
 
 			<div class="container clearfix">
 
-				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn">
-					<i class="i-plain i-large divcenter nobottommargin icon-time"></i>
-					<div class="counter counter-lined"><span data-from="10" data-to="80" data-refresh-interval="50" data-speed="4000" data-comma="true">80</span>+</div>
-					<h5>Hours per Week</h5>
-				</div>
+				<div class="row">
+					<div class="col-lg-6 offset-lg-6">
+						<div class="heading-block nobottomborder">
+							<span class="before-heading color">Connect with Us</span>
+							<h3>Get In Touch</h3>
+						</div>
+						<div class="row">
+							<div class="col-lg-15 center">
+								{{-- <p class="tleft text-muted"><strong>Headquarters</strong></p>
+								<p class="tleft text-muted">Jl. Terusan Buah Batu, Gang Pak Uweng No. 7, Ds. Lengkong Bojong Soang Kab. Bandung, Jawa Barat 40287 Indonesia</p> --}}
+								<p class="tleft text-muted"></p> 								
+								<p class="tleft text-muted"><strong>Ready to Collaborate?</strong> <br>Give us a call or send an email and We will get back to you as soon as possible!</p> 								
+								<p class="tleft text-muted"><strong>Phone: </strong> +62 81242652956 <br> <strong>Email: </strong> halo@ayaide.com</p>
 
-				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn" data-delay="200">
-					<i class="i-plain i-large divcenter nobottommargin icon-code"></i>
-					<div class="counter counter-lined"><span data-from="100" data-to="25841" data-refresh-interval="50" data-speed="2500" data-comma="true">25,841</span></div>
-					<h5>Lines of Code</h5>
-				</div>
+							</div>
+							{{-- <div class="col-lg-6 center">
+								
+								<p class="tleft text-muted"></p>
+							</div> --}}
+							{{-- <div class="col-lg-12">
 
-				<div class="col_one_fourth nobottommargin center bounceIn animated" data-animate="bounceIn" data-delay="400">
-					<i class="i-plain i-large divcenter nobottommargin icon-briefcase"></i>
-					<div class="counter counter-lined"><span data-from="100" data-to="923" data-refresh-interval="50" data-speed="3500" data-comma="true">923</span></div>
-					<h5>Projects Completed</h5>
-				</div>
+								<div class="contact-widget">
 
-				<div class="col_one_fourth nobottommargin center col_last bounceIn animated" data-animate="bounceIn" data-delay="600">
-					<i class="i-plain i-large divcenter nobottommargin icon-dribbble2"></i>
-					<div class="counter counter-lined"><span data-from="25" data-to="214" data-refresh-interval="30" data-speed="2700" data-comma="true">214</span></div>
-					<h5>Shots on Dribbble</h5>
+									<div class="contact-form-result"></div>
+
+									<form class="nobottommargin row" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+										<div class="form-process"></div>
+
+										<div class="col-lg-12">
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" placeholder="Full Name*" />
+										</div>
+
+										<div class="col-lg-12">
+											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" placeholder="Email Address*" />
+										</div>
+
+										<div class="col-lg-12">
+											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"placeholder="Message*" ></textarea>
+										</div>
+
+										<div class="col-lg-12 hidden">
+											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+										</div>
+
+										<div class="col-lg-12">
+											<button class="button button-border button-rounded button-black fright" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+										</div>
+
+									</form>
+								</div>
+
+							</div> --}}
+						</div>
+					</div>
 				</div>
 
 			</div>
 
-		</div>
+		</section> <!-- .section end -->
+
+
+
+
+
 
 		<!-- Footer
 		============================================= -->
@@ -772,11 +943,11 @@
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
 							
-							<a href="#">Home</a>/
+							{{-- <a href="#">Home</a>/
 							<a href="#">About Us</a>/
 							<a href="#">Services</a>/
 							<a href="#">Portfolio</a>/
-							<a href="#">Testimonial</a>
+							<a href="#">Testimonial</a> --}}
 						</div>
 						<div class="fright clearfix">
 							
@@ -844,6 +1015,9 @@
 			},
 		});
 	</script>
+
+	
+	
 
 </body>
 </html>
