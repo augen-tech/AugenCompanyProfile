@@ -8,23 +8,23 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/bootstrap.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/style.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/dark.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/swiper.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/bootstrap.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/style.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/dark.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/swiper.css')}}" type="text/css" />
 
 	<!-- Business Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="{{ asset('material/demos/business/css/fonts.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/demos/business/business.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/demos/business/css/fonts.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/demos/business/business.css')}}" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="{{ asset('material/css/font-icons.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/animate.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/magnific-popup.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/font-icons.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/animate.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/magnific-popup.css')}}" type="text/css" />
 
-	<link rel="stylesheet" href="{{ asset('material/one-page/css/et-line.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/one-page/css/et-line.css')}}" type="text/css" />
 
-	<link rel="stylesheet" href="{{ asset('material/css/responsive.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/responsive.css')}}" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -32,7 +32,7 @@
 
 	<!-- Theme Color
 	============================================= -->
-	<link rel="stylesheet" href="{{ asset('material/demos/business/css/colors.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/demos/business/css/colors.css')}}" type="text/css" />
 
 	<!-- Document Title
 	============================================= -->
@@ -59,8 +59,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('material/tmg/logoayaideblack.png')}}"><img src="{{ asset('material/tmg/logoayaideblack.png')}}" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('material/tmg/logoayaideblack2.png')}}"><img src="{{ asset('material/tmg/logoayaideblack2.png')}}" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="{{ asset('public/material/tmg/logoayaideblack.png')}}"><img src="{{ asset('public/material/tmg/logoayaideblack.png')}}" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="{{ asset('public/material/tmg/logoayaideblack2.png')}}"><img src="{{ asset('public/material/tmg/logoayaideblack2.png')}}" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -75,7 +75,7 @@
 							<li><a href="#" data-href="#section-portfolio"><div>Portfolio</div></a></li>
 							<li><a href="#" data-href="#section-testimonial"><div>Testimonial</div></a></li>
 							{{-- <li><a href="#" data-href="#"><div>Blog</div></a></li> --}}
-							
+
 						</ul>
 
 						<!-- Top Search
@@ -102,7 +102,7 @@
 			<div class="slider-parallax-inner">
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide" style="background-image: url('{{ asset('material/tmg/slider/1.jpg')}}'); background-size: cover">
+						<div class="swiper-slide" style="background-image: url('{{ asset('public/material/tmg/slider/1.jpg')}}'); background-size: cover">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 class="font-primary nott">Creative Work.</h2>
@@ -111,7 +111,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('{{ asset('material/tmg/slider/2.jpg')}}'); background-size: cover">
+						<div class="swiper-slide" style="background-image: url('{{ asset('public/material/tmg/slider/2.jpg')}}'); background-size: cover">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 class="font-primary">Amazing Prospects.</h2>
@@ -120,7 +120,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('{{ asset('material/tmg/slider/3.jpg')}}'); background-size: cover">
+						<div class="swiper-slide" style="background-image: url('{{ asset('public/material/tmg/slider/3.jpg')}}'); background-size: cover">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 class="font-primary">Flexible Works.</h2>
@@ -138,7 +138,7 @@
 
 				<!-- Slider Mouse Icon
 				============================================= -->
-				<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ asset('material/demos/business/images/mouse.svg')}}" alt="" ></a>
+				<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ asset('public/material/demos/business/images/mouse.svg')}}" alt="" ></a>
 			</div>
 
 		</section>
@@ -155,7 +155,7 @@
 				<section id="section-about" class="page-section">
 
 					<div class="container clearfix">
-		
+
 						<div class="heading-block center noborder" data-heading="T">
 							<h3>Welcome to Ayaide</h3>
 						</div>
@@ -165,11 +165,11 @@
 						</div>
 
 						<div class="clear"></div>
-		
+
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
-									<img src="{{ asset('material/demos/business/images/featured/1.jpg')}}" alt="Kenapa memilih kami?">
+									<img src="{{ asset('public/material/demos/business/images/featured/1.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
 								<div class="fbox-desc">
 									<h3>Best Choice<span class="subtitle">Build your app with us</span></h3>
@@ -177,11 +177,11 @@
 								</div>
 							</div>
 						</div>
-		
+
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
-									<img src="{{ asset('material/demos/business/images/featured/2.jpg')}}" alt="Kenapa memilih kami?">
+									<img src="{{ asset('public/material/demos/business/images/featured/2.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
 								<div class="fbox-desc">
 									<h3>Lot of idea<span class="subtitle">Ask us what you want</span></h3>
@@ -189,11 +189,11 @@
 								</div>
 							</div>
 						</div>
-		
+
 						<div class="col_one_third nobottommargin col_last">
 							<div class="feature-box media-box fbox-bg">
 								<div class="fbox-media">
-									<img src="{{ asset('material/demos/business/images/featured/3.jpg')}}" alt="Kenapa memilih kami?">
+									<img src="{{ asset('public/material/demos/business/images/featured/3.jpg')}}" alt="Kenapa memilih kami?">
 								</div>
 								<div class="fbox-desc">
 									<h3>Good Team<span class="subtitle">Feel like us are your family</span></h3>
@@ -201,14 +201,14 @@
 								</div>
 							</div>
 						</div>
-		
+
 						<div class="clear"></div>
-		
+
 					</div>
-					
+
 				</section>
 
-								
+
 				<!-- How We Work
 				============================================= -->
 				<section id="section-service" class="page-section">
@@ -225,7 +225,7 @@
 							<div class="oc-item">
 								<div class="row cleafix">
 									<div class="col-xl-8">
-										<img src="{{ asset('material/demos/business/images/carousel/3.jpg')}}" alt="">
+										<img src="{{ asset('public/material/demos/business/images/carousel/3.jpg')}}" alt="">
 									</div>
 									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
 										<h3>Agile</h3>
@@ -237,7 +237,7 @@
 							<div class="oc-item">
 								<div class="row cleafix">
 									<div class="col-xl-8">
-										<img src="{{ asset('material/demos/business/images/carousel/2.jpg')}}" alt="">
+										<img src="{{ asset('public/material/demos/business/images/carousel/2.jpg')}}" alt="">
 									</div>
 									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
 										<h3>Design Thingking</h3>
@@ -249,7 +249,7 @@
 							<div class="oc-item">
 								<div class="row cleafix">
 									<div class="col-xl-8">
-										<img src="{{ asset('material/demos/business/images/carousel/1.jpg')}}" alt="">
+										<img src="{{ asset('public/material/demos/business/images/carousel/1.jpg')}}" alt="">
 									</div>
 									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
 										<h3>Tech Consultant</h3>
@@ -266,7 +266,7 @@
 				{{-- ============================================= -->
 				<div class="section nopadding notopmargin nobg clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
 					<div class="row common-height clearfix">
-						<div class="col-lg-6 center col-padding" style="background: url('{{ asset('material/demos/business/images/sections/1.jpg')}}') center center no-repeat; background-size: cover;">
+						<div class="col-lg-6 center col-padding" style="background: url('{{ asset('public/material/demos/business/images/sections/1.jpg')}}') center center no-repeat; background-size: cover;">
 							<div>&nbsp;</div>
 						</div>
 
@@ -333,7 +333,7 @@
                                 <li><a href="#" data-filter=".pf-client">Client Project</a></li>
                                 <li><a href="#" data-filter=".pf-game">Game Project</a></li>
                                 <li><a href="#" data-filter=".pf-web">Web Project</a></li>
-								<li><a href="#" data-filter=".pf-graphic">Graphic Design</a></li>								
+								<li><a href="#" data-filter=".pf-graphic">Graphic Design</a></li>
 								<li><a href="#" data-filter=".pf-video">Video</a></li>
 
 							</ul><!-- #portfolio-filter end -->
@@ -346,77 +346,77 @@
                             <article class="portfolio-item pf-client pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/7.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/7.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/7.jpg')}}" data-lightbox="image">Usir Penjajah</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/7.jpg')}}" data-lightbox="image">Usir Penjajah</a></h3>
                                             <span><a>Client Project</a>, <a>Game Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
-                            </article> 
-
-                            <article class="portfolio-item pf-client pf-game">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/5.jpg')}}" alt="portofolio">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/5.jpg')}}" data-lightbox="image">Light Path</a></h3>
-                                            <span><a>Client Project</a>, <a>Game Project</a></span>
-                                        </div>
-                                    </div>
-                                </div>                                
-                            </article> 
-                            
-                            <article class="portfolio-item pf-client pf-web">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/1.jpg')}}" alt="portofolio">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Klinik Ganesha Husada</a></h3>
-                                            <span><a>Client Project</a>, <a>Web Project</a></span>
-                                        </div>
-                                    </div>
-                                </div>                                
-                            </article> 
-
-                            <article class="portfolio-item pf-client pf-game">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/11.jpg')}}" alt="portofolio">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/11.jpg')}}" data-lightbox="image">Cultural Last Frontier</a></h3>
-                                            <span><a>Client Project</a>, <a>Game Project</a></span>
-                                        </div>
-                                    </div>
-                                </div>                                
+                                </div>
                             </article>
 
                             <article class="portfolio-item pf-client pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/16.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/5.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/16.jpg')}}" data-lightbox="image">Bermain Buah & Sayur</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/5.jpg')}}" data-lightbox="image">Light Path</a></h3>
                                             <span><a>Client Project</a>, <a>Game Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
-                            </article>		                                                       	
-                            
+                                </div>
+                            </article>
+
+                            <article class="portfolio-item pf-client pf-web">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('public/material/tmg/portfolio/1.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Klinik Ganesha Husada</a></h3>
+                                            <span><a>Client Project</a>, <a>Web Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('public/material/tmg/portfolio/11.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/11.jpg')}}" data-lightbox="image">Cultural Last Frontier</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('public/material/tmg/portfolio/16.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/16.jpg')}}" data-lightbox="image">Bermain Buah & Sayur</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
                             <article class="portfolio-item pf-client pf-video pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/39.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/39.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
@@ -424,99 +424,99 @@
                                             <span><a>Client Project</a>, <a>Game Project</a>, <a>Video</a></span>
                                         </div>
                                     </div>
-                                </div>                                
-                            </article>	
+                                </div>
+                            </article>
 
                             <article class="portfolio-item pf-client pf-web">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/1.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/1.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Pilar Juanda</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/1.jpg')}}" data-lightbox="image">Pilar Juanda</a></h3>
                                             <span><a>Client Project</a>, <a>Web Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
-                            </article>
-                            
-                            <article class="portfolio-item pf-client pf-game">
-                                <div class="portfolio-image">
-                                    <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/26.jpg')}}" alt="portofolio">
-                                    </a>
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/26.jpg')}}" data-lightbox="image">To-do Diet App</a></h3>
-                                            <span><a>Client Project</a>, <a>Game Project</a></span>
-                                        </div>
-                                    </div>
-                                </div>                                
+                                </div>
                             </article>
 
                             <article class="portfolio-item pf-client pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/12.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/26.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/12.jpg')}}" data-lightbox="image">Kiddo Puzzle Game</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/26.jpg')}}" data-lightbox="image">To-do Diet App</a></h3>
                                             <span><a>Client Project</a>, <a>Game Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
                             </article>
 
                             <article class="portfolio-item pf-client pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/10.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/12.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/10.jpg')}}" data-lightbox="image">Crash The Crunch Chitato</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/12.jpg')}}" data-lightbox="image">Kiddo Puzzle Game</a></h3>
                                             <span><a>Client Project</a>, <a>Game Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
                             </article>
 
                             <article class="portfolio-item pf-client pf-game">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
-                                        <img src="{{ asset('material/tmg/portfolio/14.jpg')}}" alt="portofolio">
+                                        <img src="{{ asset('public/material/tmg/portfolio/10.jpg')}}" alt="portofolio">
                                     </a>
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-desc">
-                                            <h3><a href="{{ asset('material/tmg/portfolio/full/14.jpg')}}" data-lightbox="image">KEPO</a></h3>
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/10.jpg')}}" data-lightbox="image">Crash The Crunch Chitato</a></h3>
                                             <span><a>Client Project</a>, <a>Game Project</a></span>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
                             </article>
-						
+
+                            <article class="portfolio-item pf-client pf-game">
+                                <div class="portfolio-image">
+                                    <a href="portfolio-single.html">
+                                        <img src="{{ asset('public/material/tmg/portfolio/14.jpg')}}" alt="portofolio">
+                                    </a>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-desc">
+                                            <h3><a href="{{ asset('public/material/tmg/portfolio/full/14.jpg')}}" data-lightbox="image">KEPO</a></h3>
+                                            <span><a>Client Project</a>, <a>Game Project</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
 
 						</div><!-- #portfolio end -->
 					</div>
 				</section>
-				
+
 				<!-- Video Sections
 				============================================= -->
 				<div class="section nobg notopmargin clearfix">
 					<div class="container clearfix">
 
-						
+
 						<div class="heading-block bottommargin-lg center noborder" data-heading="T">
 							<h3 class="nott ls0">Services</h3>
 						</div>
-						
+
 
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 											<div class="fbox-icon">
-												<a href="#"><img src="{{ asset('material/images/services/s1.png')}}" alt=""></a>
+												<a href="#"><img src="{{ asset('public/material/images/services/s1.png')}}" alt=""></a>
 											</div>
 								<h3 class="nott t600 ls0">Software Development</h3>
 								<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
@@ -526,7 +526,7 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/images/services/s2.png')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('public/material/images/services/s2.png')}}" alt=""></a>
 								</div>
 								<h3 class="nott t600 ls0">Game Development</h3>
 								<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
@@ -536,7 +536,7 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/images/services/s3.png')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('public/material/images/services/s3.png')}}" alt=""></a>
 								</div>
 								<h3 class="nott t600 ls0">AR/VR Development</h3>
 								<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
@@ -548,7 +548,7 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/images/services/s4.png')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('public/material/images/services/s4.png')}}" alt=""></a>
 								</div>
 								<h3 class="nott t600 ls0">IT Camp</h3>
 								<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
@@ -558,7 +558,7 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/images/services/s5.png')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('public/material/images/services/s5.png')}}" alt=""></a>
 								</div>
 								<h3 class="nott t600 ls0">Multimedia & Graphic Design</h3>
 								<p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
@@ -568,24 +568,24 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
-									<a href="#"><img src="{{ asset('material/images/services/s6.png')}}" alt=""></a>
+									<a href="#"><img src="{{ asset('public/material/images/services/s6.png')}}" alt=""></a>
 								</div>
 								<h3 class="nott t600 ls0">Technology Consultancy</h3>
 								<p>Complete control on each &amp; every element that provides endless customization possibilities.</p>
 							</div>
 						</div>
 
-						<div class="clear"></div>						
+						<div class="clear"></div>
 
 						<div class="clear line"></div>
 
-						
+
 						<div class="row topmargin-lg clearfix">
 							<div class="col-lg-6 nopadding">
 								<!-- Youtube Video Link
 								============================================= -->
 								<a href="https://www.youtube.com/watch?v=NS0txu_Kzl8" data-lightbox="iframe">
-									<img src="{{ asset('material/demos/business/images/sections/video.jpg')}}" alt="Youtube Video" class="image_fade" style="box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15); border-radius: 6px;">
+									<img src="{{ asset('public/material/demos/business/images/sections/video.jpg')}}" alt="Youtube Video" class="image_fade" style="box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15); border-radius: 6px;">
 									<i class="icon-play" style="position: absolute; top: 50%; left: 50%; font-size: 60px; color: #FFF; margin-top: -45px; margin-left: -23px"></i>
 								</a>
 							</div>
@@ -601,7 +601,7 @@
 							</div>
 						</div>
 					</div>
-				</div> 
+				</div>
 
 				<!-- Team Content
 				============================================= -->
@@ -611,13 +611,13 @@
 							<div class="fancy-title title-border title-center">
 								<h3>Our Team</h3>
 							</div>
-																	
+
 							<div id="oc-team" class="owl-carousel team-carousel bottommargin carousel-widget" data-margin="30" data-pagi="false" data-items-sm="2" data-items-md="2" data-items-xl="5">
-			
+
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Januar Elsan</h4><span>CEO</span></div>
@@ -640,7 +640,7 @@
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Ashari Fachrizal</h4><span>CTO</span></div>
@@ -663,7 +663,7 @@
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Zidni Fahmi</h4><span>Web Developer</span></div>
@@ -686,7 +686,7 @@
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Akbar Maulana</h4><span>Web Developer</span></div>
@@ -709,7 +709,7 @@
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Rafi Al Farizi</h4><span>Web Developer</span></div>
@@ -732,7 +732,7 @@
 								<div class="oc-item">
 									<div class="team">
 										<div class="team-image">
-											<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+											<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 										</div>
 										<div class="team-desc">
 											<div class="team-title"><h4>Ervira Wulandari</h4><span>Media Content Creator</span></div>
@@ -751,11 +751,11 @@
 										</div>
 									</div>
 								</div>
-									
-			
+
+
 							</div>
-				
-							<div class="clear"></div>							
+
+							<div class="clear"></div>
 						</div>
 
 					</div>
@@ -767,29 +767,29 @@
 				<div class="container clearfix">
 
 						<div class="clear"></div>
-	
+
 						<div class="heading-block center">
 							<h4>Our Clients</h4>
 						</div>
-	
+
 						<ul class="clients-grid grid-6 nobottommargin clearfix">
-							<li><a href="#"><img src="{{ asset('material/images/clients/KPK.png')}}" alt="Clients"></a></li>
-							<li><a href="#"><img src="{{ asset('material/images/clients/Telkom-University.png')}}" alt="Clients"></a></li>
-                            <li><a href="#"><img src="{{ asset('material/images/clients/UPI.png')}}" alt="Clients"></a></li>
-                            <li><a href="#"><img src="{{ asset('material/images/clients/Radio-Angkasa.png')}}" alt="Clients"></a></li>
-                            <li><a href="#"><img src="{{ asset('material/images/clients/BUMIMANIRA.png')}}" alt="Clients"></a></li>
-                            <li><a href="#"><img src="{{ asset('material/images/clients/gubugdogja.png')}}" alt="Clients"></a></li>
-                            <li><a href="#"><img src="{{ asset('material/images/clients/pilarjuanda.png')}}" alt="Clients"></a></li>
-							
+							<li><a href="#"><img src="{{ asset('public/material/images/clients/KPK.png')}}" alt="Clients"></a></li>
+							<li><a href="#"><img src="{{ asset('public/material/images/clients/Telkom-University.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('public/material/images/clients/UPI.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('public/material/images/clients/Radio-Angkasa.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('public/material/images/clients/BUMIMANIRA.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('public/material/images/clients/gubugdogja.png')}}" alt="Clients"></a></li>
+                            <li><a href="#"><img src="{{ asset('public/material/images/clients/pilarjuanda.png')}}" alt="Clients"></a></li>
+
 						</ul>
-	
+
 					</div>
-	
+
 
 				<!-- Testimonial Sections
 				============================================= -->
 				<section id="section-testimonial" class="page-section">
-					<div class="section parallax nobottommargin notopborder clearfix" style="background-image: url('{{ asset('material/demos/business/images/sections/2.jpg')}}'); background-size: cover;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+					<div class="section parallax nobottommargin notopborder clearfix" style="background-image: url('{{ asset('public/material/demos/business/images/sections/2.jpg')}}'); background-size: cover;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
 						<div class="container clearfix">
 
 							<div class="row cleafix">
@@ -883,7 +883,7 @@
 															</div>
 														</div>
 													</div>
-												</div>												
+												</div>
 											</div>
 										</div>
 									</div>
@@ -894,15 +894,15 @@
 					</div>
 				</section>
 
-				
+
 
 			</div>
 
 		</section>
 		<!-- #content end -->
 
-		<!-- 5 : #section-contact -->																					
-		<section id="section-contact" class="page-section section dark nomargin" style="background: url(' {{ asset('material/demos/business/images/sections/3.jpg')}}') no-repeat center center; background-size: cover;">
+		<!-- 5 : #section-contact -->
+		<section id="section-contact" class="page-section section dark nomargin" style="background: url(' {{ asset('public/material/demos/business/images/sections/3.jpg')}}') no-repeat center center; background-size: cover;">
 
 			<div class="container clearfix">
 
@@ -916,13 +916,13 @@
 							<div class="col-lg-15 center">
 								{{-- <p class="tleft text-muted"><strong>Headquarters</strong></p>
 								<p class="tleft text-muted">Jl. Terusan Buah Batu, Gang Pak Uweng No. 7, Ds. Lengkong Bojong Soang Kab. Bandung, Jawa Barat 40287 Indonesia</p> --}}
-								<p class="tleft text-muted"></p> 								
-								<p class="tleft text-muted"><strong>Ready to Collaborate?</strong> <br>Give us a call or send an email and We will get back to you as soon as possible!</p> 								
+								<p class="tleft text-muted"></p>
+								<p class="tleft text-muted"><strong>Ready to Collaborate?</strong> <br>Give us a call or send an email and We will get back to you as soon as possible!</p>
 								<p class="tleft text-muted"><strong>Phone: </strong> +62 81242652956 <br> <strong>Email: </strong> halo@ayaide.com</p>
 
 							</div>
 							{{-- <div class="col-lg-6 center">
-								
+
 								<p class="tleft text-muted"></p>
 							</div> --}}
 							{{-- <div class="col-lg-12">
@@ -983,15 +983,15 @@
 				<div class="container clearfix">
 
 					<div class="col_half" style="color: rgb(31, 31, 31)">
-						<img src="{{asset('material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
-						
+						<img src="{{asset('public/material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
+
 
 						Copyrights &copy; 2018 All Rights Reserved by Ayaide
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							
+
 							{{-- <a href="#">Home</a>/
 							<a href="#">About Us</a>/
 							<a href="#">Services</a>/
@@ -999,7 +999,7 @@
 							<a href="#">Testimonial</a> --}}
 						</div>
 						<div class="fright clearfix">
-							
+
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
@@ -1042,12 +1042,12 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="{{ asset('material/js/jquery.js')}}"></script>
-	<script src="{{ asset('material/js/plugins.js')}}"></script>
+	<script src="{{ asset('public/material/js/jquery.js')}}"></script>
+	<script src="{{ asset('public/material/js/plugins.js')}}"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script src="{{ asset('material/js/functions.js')}}"></script>
+	<script src="{{ asset('public/material/js/functions.js')}}"></script>
 
 	<script>
 		// Owl Carousel Scripts

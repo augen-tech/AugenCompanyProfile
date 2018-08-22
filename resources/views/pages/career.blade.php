@@ -9,14 +9,14 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/bootstrap.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/style.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/dark.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/font-icons.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/animate.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/magnific-popup.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/bootstrap.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/style.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/dark.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/font-icons.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/animate.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/magnific-popup.css')}}" type="text/css" />
 
-	<link rel="stylesheet" href="{{ asset('material/css/responsive.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/responsive.css')}}" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -44,8 +44,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="{{ route ('test.home')}}" class="standard-logo" data-dark-logo="{{ asset('material/tmg/logotekindo.png')}}"><img src="{{ asset('material/tmg/logotekindo.png')}}" alt="Canvas Logo"></a>
-						<a href="{{ route ('test.home')}}" class="retina-logo" data-dark-logo="{{ asset('material/tmg/logotekindo@2x.png')}}"><img src="{{ asset('material/tmg/logotekindo@2x.png')}}" alt="Canvas Logo"></a>
+						<a href="{{ route ('test.home')}}" class="standard-logo" data-dark-logo="{{ asset('public/material/tmg/logotekindo.png')}}"><img src="{{ asset('public/material/tmg/logotekindo.png')}}" alt="Canvas Logo"></a>
+						<a href="{{ route ('test.home')}}" class="retina-logo" data-dark-logo="{{ asset('public/material/tmg/logotekindo@2x.png')}}"><img src="{{ asset('public/material/tmg/logotekindo@2x.png')}}" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -83,7 +83,7 @@
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('{{ asset('material/images/about/parallax.jpg')}}'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('{{ asset('public/material/images/about/parallax.jpg')}}'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
 
 			<div class="container clearfix">
 				<h1>Career Openings</h1>
@@ -303,7 +303,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						<img src="{{ asset('material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
+						<img src="{{ asset('public/material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
 
 						Copyrights &copy; 2018 All Rights Reserved by Tekindo
 					</div>
@@ -359,12 +359,12 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="{{ asset('material/js/jquery.js')}}"></script>
-	<script src="{{ asset('material/js/plugins.js')}}"></script>
+	<script src="{{ asset('public/material/js/jquery.js')}}"></script>
+	<script src="{{ asset('public/material/js/plugins.js')}}"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script src="{{ asset('material/js/functions.js')}}"></script>
+	<script src="{{ asset('public/material/js/functions.js')}}"></script>
 
 </body>
 </html>

@@ -9,15 +9,15 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/bootstrap.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/style.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/swiper.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/dark.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/font-icons.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/animate.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{ asset('material/css/magnific-popup.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/bootstrap.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/style.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/swiper.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/dark.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/font-icons.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/animate.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/magnific-popup.css')}}" type="text/css" />
 
-	<link rel="stylesheet" href="{{ asset('material/css/responsive.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{ asset('public/material/css/responsive.css')}}" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -40,7 +40,7 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('{{ asset('material/images/slider/swiper/1.jpg')}}');">
+						<div class="swiper-slide dark" style="background-image: url('{{ asset('public/material/images/slider/swiper/1.jpg')}}');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">Welcome to Tekindo</h2>
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 						
-						<div class="swiper-slide" style="background-image: url('{{ asset('material/images/slider/swiper/3.jpg')}}'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('{{ asset('public/material/images/slider/swiper/3.jpg')}}'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Great Performance</h2>
@@ -58,7 +58,7 @@
 							</div>
 						</div>
 
-						<div class="swiper-slide" style="background-image: url('{{ asset('material/images/slider/swiper/5.jpg')}}'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('{{ asset('public/material/images/slider/swiper/5.jpg')}}'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Professional Team</h2>
@@ -89,8 +89,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="{{ route ('test.home')}}" class="standard-logo" data-dark-logo="{{ asset('material/tmg/logotekindo.png')}}"><img src="{{ asset('material/tmg/logotekindo.png')}}" alt="Canvas Logo"></a>
-						<a href="{{ route ('test.home')}}" class="retina-logo" data-dark-logo="{{ asset('material/tmg/logotekindo@2x.png')}}"><img src="{{ asset('material/tmg/logotekindo@2x.png')}}" alt="Canvas Logo"></a>
+						<a href="{{ route ('test.home')}}" class="standard-logo" data-dark-logo="{{ asset('public/material/tmg/logotekindo.png')}}"><img src="{{ asset('public/material/tmg/logotekindo.png')}}" alt="Canvas Logo"></a>
+						<a href="{{ route ('test.home')}}" class="retina-logo" data-dark-logo="{{ asset('public/material/tmg/logotekindo@2x.png')}}"><img src="{{ asset('public/material/tmg/logotekindo@2x.png')}}" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -146,7 +146,7 @@
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="{{ asset('material/images/services/1.jpg')}}" alt="Why choose Us?">
+									<img src="{{ asset('public/material/images/services/1.jpg')}}" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
 									<h3>History of Us.<span class="subtitle">Know with Us closer.</span></h3>
@@ -158,7 +158,7 @@
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="{{ asset('material/images/services/2.jpg')}}" alt="Why choose Us?">
+									<img src="{{ asset('public/material/images/services/2.jpg')}}" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
 									<h3>Vision &amp; Mission.<span class="subtitle">To solve your IT problems.</span></h3>
@@ -170,7 +170,7 @@
 						<div class="col_one_third nobottommargin col_last">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="{{ asset('material/images/services/3.jpg')}}" alt="Why choose Us?">
+									<img src="{{ asset('public/material/images/services/3.jpg')}}" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
 									<h3>What we Do.<span class="subtitle">Make our Customers Happy.</span></h3>
@@ -204,10 +204,10 @@
 							<article class="portfolio-item pf-own-project">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/2.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/2.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/2.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/2.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -220,10 +220,10 @@
 							<article class="portfolio-item pf-own-project pf-design">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/5.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/5.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/5.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/5.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -236,10 +236,10 @@
 							<article class="portfolio-item pf-own-project pf-design">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/6.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/6.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/6.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/6.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -252,10 +252,10 @@
 							<article class="portfolio-item pf-own-project">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/11.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/11.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/11.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/11.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -268,10 +268,10 @@
 							<article class="portfolio-item pf-client-project">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/16.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/16.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/16.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/16.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -284,10 +284,10 @@
 							<article class="portfolio-item pf-client-project">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/15.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/15.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/15.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/15.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -300,10 +300,10 @@
 							<article class="portfolio-item pf-own-project pf-design">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/21.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/21.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/21.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/21.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -316,10 +316,10 @@
 							<article class="portfolio-item pf-client-project">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ asset('material/tmg/portfolio/14.jpg')}}" alt="Open Imagination">
+										<img src="{{ asset('public/material/tmg/portfolio/14.jpg')}}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="{{ asset('material/tmg/portfolio/full/14.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+										<a href="{{ asset('public/material/tmg/portfolio/full/14.jpg')}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
 										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -333,7 +333,7 @@
 							{{-- <article class="portfolio-item pf-graphics pf-uielements">
 								<div class="portfolio-image">
 									<a href="#">
-										<img src="{{ asset('material/images/portfolio/4/3.jpg')}}" alt="Mac Sunglasses">
+										<img src="{{ asset('public/material/images/portfolio/4/3.jpg')}}" alt="Mac Sunglasses">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
@@ -350,11 +350,11 @@
 							{{-- <article class="portfolio-item pf-icons pf-illustrations">
 								<div class="portfolio-image">
 									<a href="#">
-										<img src="{{ asset('material/images/portfolio/4/4.jpg')}}" alt="Mac Sunglasses">
+										<img src="{{ asset('public/material/images/portfolio/4/4.jpg')}}" alt="Mac Sunglasses">
 									</a>
 									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="{{ asset('material/images/portfolio/full/4.jpg')}}" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="{{ asset('material/images/portfolio/full/4-1.jpg')}}" class="hidden" data-lightbox="gallery-item"></a>
+										<a href="{{ asset('public/material/images/portfolio/full/4.jpg')}}" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+										<a href="{{ asset('public/material/images/portfolio/full/4-1.jpg')}}" class="hidden" data-lightbox="gallery-item"></a>
 										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -385,7 +385,7 @@
 
 								<div class="team team-list clearfix">
 									<div class="team-image">
-										<img src="{{ asset('material/images/team/3.jpg')}}" alt="John Doe">
+										<img src="{{ asset('public/material/images/team/3.jpg')}}" alt="John Doe">
 									</div>
 									<div class="team-desc">
 										<div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
@@ -411,7 +411,7 @@
 
 								<div class="team team-list clearfix">
 									<div class="team-image">
-										<img src="{{ asset('material/images/team/4.jpg')}}" alt="Nix Maxwell">
+										<img src="{{ asset('public/material/images/team/4.jpg')}}" alt="Nix Maxwell">
 									</div>
 									<div class="team-desc">
 										<div class="team-title"><h4>Nix Maxwell</h4><span>Co-Founder</span></div>
@@ -439,7 +439,7 @@
 
 								<div class="team team-list clearfix">
 									<div class="team-image">
-										<img src="{{ asset('material/images/team/2.jpg')}}" alt="Josh Clark">
+										<img src="{{ asset('public/material/images/team/2.jpg')}}" alt="Josh Clark">
 									</div>
 									<div class="team-desc">
 										<div class="team-title"><h4>Josh Clark</h4><span>Developer</span></div>
@@ -465,7 +465,7 @@
 
 								<div class="team team-list clearfix">
 									<div class="team-image">
-										<img src="{{ asset('material/images/team/8.jpg')}}" alt="Mary Jane">
+										<img src="{{ asset('public/material/images/team/8.jpg')}}" alt="Mary Jane">
 									</div>
 									<div class="team-desc">
 										<div class="team-title"><h4>Mary Jane</h4><span>Support</span></div>
@@ -643,7 +643,7 @@
 
 				</section>
 
-				{{-- <section id="section-testimonials" class="page-section section parallax dark" style="background-image: url('{{ asset('material/images/about/me-parallax.jpg')}}'); padding: 200px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+				{{-- <section id="section-testimonials" class="page-section section parallax dark" style="background-image: url('{{ asset('public/material/images/about/me-parallax.jpg')}}'); padding: 200px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
 
 					<div class="container clearfix">
 
@@ -848,7 +848,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						<img src="{{ asset('material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
+						<img src="{{ asset('public/material/tmg/footer-logo.png')}}" alt="Footer Logo" class="footer-logo">
 
 						Copyrights &copy; 2018 All Rights Reserved by Tekindo
 					</div>
@@ -905,15 +905,15 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="{{ asset('material/js/jquery.js')}}"></script>
-	<script src="{{ asset('material/js/plugins.js')}}"></script>
+	<script src="{{ asset('public/material/js/jquery.js')}}"></script>
+	<script src="{{ asset('public/material/js/plugins.js')}}"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script src="{{ asset('material/js/functions.js')}}"></script>
+	<script src="{{ asset('public/material/js/functions.js')}}"></script>
 
 	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDMxJ92oBkSnVNHFX3R8XhtYQPEgk1_IiI"></script>
-	<script src="{{ asset('material/js/jquery.gmap.js')}}"></script>
+	<script src="{{ asset('public/material/js/jquery.gmap.js')}}"></script>
 
 	<script>
 
